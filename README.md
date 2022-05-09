@@ -33,7 +33,16 @@ Electron version: 15.5.1
 Bundled Node version: 16.5.0
 ```
 
-4. Run the tests
+4. Run the test from Chrome browser
+
+```
+# from root dir of this project
+% npx cypress open
+```
+
+This will open the Chrome browser instance and the tests can be run from the UI
+
+5. Run the tests from command line
 
 Follow instructions at https://docs.cypress.io/guides/guides/command-line#How-to-run-commands
 
